@@ -1,0 +1,11 @@
+/* 외부 css */
+
+h1 {
+    color : hotpink;
+    background-color: lightpink;
+}
+
+h2 {
+    color : lightpink;
+    background-color: hotpink;
+}

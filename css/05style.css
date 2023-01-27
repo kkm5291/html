@@ -1,0 +1,11 @@
+h1 {
+    color: greenyellow;
+    background-color: chocolate;
+}
+
+p {
+    color : wheat;
+    background-color: hotpink;
+    text-align: center;
+    text-shadow: 5px;
+}
