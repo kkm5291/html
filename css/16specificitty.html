@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* 좀더 구체적인 선택자를 따라간다 */
+        /* 같은 선택자가 있다면 제일 마지막의 로직을 따라간다.  */
+
+        h1 {
+            border : 5px solid;
+        }
+
+        h1.note {
+            border : 5px dotted;
+        }
+
+        h1.note {
+            border :5px outset;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <h1 class="note">Lorem, ipsum dolor.</h1>
+    <h1 class="note error">Lorem, ipsum dolor.</h1>
+</body>
+</html>

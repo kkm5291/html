@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .error {
+            background-color: green;
+            color: white;
+        }
+
+        .note {
+            background-color: yellow;
+            color: violet;
+        }
+
+        .delete {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <!-- class 속성은 영문,숫자, _, -, 조합으로 작성해야 함 -->
+    <!-- 중복 가능 -->
+
+    <!-- 하나의 요소는 빈칸으로 구분해서 여러 클래스를 가질 수 있음 -->
+
+    <h1 class="error">Lorem, ipsum.</h1>
+    <h1 class="note">Hic, in.</h1>
+    <h1 class="error">Excepturi, laboriosam.</h1>
+    <h1 class="note">Voluptatem, illo?</h1>
+    <h1 class="note">Debitis, totam.</h1>
+    <h1 class="delete">Nesciunt, tempora.</h1>
+    <h1 class="delete">Aperiam, consectetur?</h1>
+    
+    <!-- 아래와 같이 작성하면 note클래스와 delete 클래스에 둘다 적용됨 -->
+    <h1 class="note delete">Non, quasi.</h1>
+    <h1>Commodi, a!</h1>
+    <h1>Voluptatibus, quia.</h1>
+</body>
+</html>

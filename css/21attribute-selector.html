@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            color : blue;
+        }
+
+        /* title 속성이 있는 요소들 */
+        [title] {
+            text-decoration: underline;
+        }
+
+        p[tittle] {
+            border: 5px solid;
+        }
+
+        /* h1을 조상으로둔 title속성이 있는 요소들 */
+        h1 [title] {
+            border: 5px dotted;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, <span title="inside">ipsum</span>  dolor sit amet.</h1>
+
+    <h1 title="hello">Lorem.</h1>
+    <h1 title="world">Quae.</h1>
+    <h1>Odit.</h1>
+    <h1>Tempore!</h1>
+    <h1>Fugiat.</h1>
+
+    <p title="hi css">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et incidunt laborum, aliquam nesciunt minima culpa porro veritatis repellendus. Quasi quo, labore facere similique sint autem minus sunt iusto unde.</p>
+    <p>Officiis ipsam qui tempore dolorum eos, suscipit aliquid distinctio sapiente similique porro nam error maiores beatae et molestias, eveniet fugit sed tenetur expedita laborum obcaecati alias facere. Laudantium, deserunt hic?</p>
+    <p>Qui, commodi ullam. Aut quam, iure, tenetur laboriosam quibusdam a, beatae unde perspiciatis quidem odio quasi expedita aperiam labore atque corrupti vel aliquam magnam ex sapiente reiciendis! Voluptate, magni a.</p>
+</body>
+</html>

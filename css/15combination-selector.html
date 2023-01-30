@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color : blue;
+        }
+
+        p {
+            color : chocolate;
+        }
+
+        /* 
+            선택자를 띄어쓰기 없이 연속 작성
+            모든 조건을 만족하는 요소 선택
+         */
+
+
+         /* element가 p고 class가 note인 것들! */
+         p.note {
+            background-color: yellow;
+            text-decoration: line-through;
+         }
+
+         p.error.note {
+            background-color: black;
+            border : 1px solid;
+         }
+
+         .note.error {
+            /* note클래스이면서 error클래스인 */
+
+            background-color: lightpink;
+         }
+
+         h1.note.error {
+            text-align: center;
+         }
+    </style>
+</head>
+<body>
+    <h1 class="note">Lorem, ipsum dolor.</h1>
+    <h1 class="note">Maiores, laborum corporis?</h1>
+    <h1 class="note error">Debitis, dolores tempore!</h1>
+    
+    <p class="note">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id necessitatibus eaque repellendus expedita, similique odio modi numquam eligendi tenetur facere iste totam reiciendis! Magni inventore iusto rerum, architecto quibusdam ipsam.</p>
+    <p class="note error">Corporis, rem voluptatibus. At maxime vel quaerat ratione consequuntur unde porro autem tempore praesentium, corporis voluptate cumque aliquid rerum eaque alias itaque ducimus ad quis! Voluptatibus dolorum excepturi odit earum!</p>
+    <p class="note error">Cupiditate nobis voluptatem repellat, adipisci ipsum aliquam minima, illum saepe est dolor qui iusto porro aperiam sit? Aut odit earum modi? Nemo, ratione iste. Dicta accusantium asperiores totam reprehenderit rerum?</p>
+</body>
+</html>
