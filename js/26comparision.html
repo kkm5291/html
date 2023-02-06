@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,25 +8,18 @@
     <style>
     </style>
 </head>
-
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-        // object : 여러 값(속성 property)를 갖는 data type
-        let name = "John"
-        let age = 30
+    let age = prompt("나이를 입력하세요", 10)
+    console.log(age);
 
-        let a = {name : "jane", age : 20};
+    if (age>=20) console.log("어른입니다.");
 
-        
-        a.address = "seoul"
-        console.log(a.address);
-        
-        console.log(a.birth); // undefined
-        console.log(a);
+    if(age <10) console.log("최정환 정신연령");
+    
 
-        
+
     </script>
 </body>
-
 </html>
