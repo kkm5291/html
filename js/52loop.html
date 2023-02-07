@@ -11,15 +11,23 @@
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js" integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
-    let age = prompt("나이를 입력하세요", 10)
-    console.log(age);
+        // prompt 앞에 +값을 붙이면 int 값으로 받아오기 가능
+    let num1 = +prompt("첫번째 수를 입력하세요", 1)
+    let num2 = +prompt("두번째 수를 입력하세요", 10)
 
-        let message = (age>=20) ? "어른입니다" : "미성년입니다"
-        
-        console.log(message)
-    
+    let result = 0;
 
+    for(let i=num1; i<=num2 ; i++) {
+        result += i;
+        // result += parseInt(i);
+    }
 
+    let dice1;
+    let dice2;
+
+    while(true)
+
+    alert(result)
     </script>
 </body>
 </html>
