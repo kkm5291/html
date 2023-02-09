@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1">
+        Lorem.
+    </h1>
+    <h1 id="head2">
+        Veniam.
+    </h1>
+    <h1 id="head3">
+        Esse.
+    </h1>
+
+    <script>
+    document.getElementById("head1").innerHTML = "Hello World!!"
+
+    let o1 = document.getElementById("head2")
+    console.log(o1.textContent);
+
+    o1.textContent = "Hello Dom"
+
+    o1.remove();
+
+    let o2 = document.getElementById("head3")
+    o2.textContent = "JAVASCRIPT"
+
+
+    </script>
+    
+</body>
+</html>

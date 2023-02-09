@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1">
+        Lorem.
+    </h1>
+    <h1 id="head2">
+        Veniam.
+    </h1>
+    <h1 id="head3">
+        Esse.
+    </h1>
+
+    <script>
+        let heads = document.getElementsByTagName("h1")
+        console.log(heads[0].textContent);
+        console.log(heads[1].textContent);
+        console.log(heads[2].textContent);
+    
+
+    for(let i=0; i<heads.length; i++) {
+        console.log(heads[i].textContent);
+    }
+
+
+    </script>
+    
+</body>
+</html>

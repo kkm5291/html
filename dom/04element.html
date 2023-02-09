@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1" class="note">
+        Lorem.
+    </h1>
+    <h1 id="head2" class="note error">
+        Illo?
+    </h1>
+    <h1 id="head3" class="note error">
+        Qui.
+    </h1>
+    <h1 id="head4" class="note">
+        Eveniet.
+    </h1>
+
+    <script>
+        let elems1 = document.getElementsByClassName("note")
+
+        for (let i =0; i<elems1.length; i++) {
+            console.log(elems1[i].textContent);
+        }
+
+        let elems2 = document.getElementsByClassName("error")
+        for (let i=0; i<elems2.length; i++) {
+            console.log(elems2[i].textContent);
+        }
+
+        elems2[1].textContent = "hello React"
+        
+    </script>
+</body>
+</html>
